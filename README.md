@@ -62,12 +62,22 @@ When uncompressed (raw DEFLATE, `wbits=-15`), each block contains 6 streams: `[a
 
 ## 4. Coordinate Decoding Formulas
 
-$$\text{spm} = \frac{100}{\text{xy\_step\_cm}}$$
+$$
+\text{spm} = \frac{100}{\text{xy\_step\_cm}}
+$$
 
-$$\text{X}_{\text{m}} = \text{tile\_origin\_x\_m} + \frac{x_{\text{grid}}}{\text{spm}}$$
+$$
+X_{\text{m}} = \text{tile\_origin\_x\_m} + \frac{x_{\text{grid}}}{\text{spm}}
+$$
 
-$$\text{Y}_{\text{m}} = \text{tile\_origin\_y\_m} + \frac{y_{\text{grid}}}{\text{spm}}$$
+$$
+Y_{\text{m}} = \text{tile\_origin\_y\_m} + \frac{y_{\text{grid}}}{\text{spm}}
+$$
 
-$$\text{Z}_{\text{base\_m}} = \text{base\_z} \times \frac{\text{z\_step\_cm}}{100}$$
+$$
+Z_{\text{base\_m}} = \text{base\_z} \times \frac{\text{z\_step\_cm}}{100}
+$$
 
-$$\text{Z}_{\text{roof\_m}} = \text{Z}_{\text{base\_m}} + \left(\text{height} \times \frac{\text{z\_step\_cm}}{100}\right)$$
+$$
+Z_{\text{roof\_m}} = Z_{\text{base\_m}} + \left(\text{height} \times \frac{\text{z\_step\_cm}}{100}\right)
+$$
