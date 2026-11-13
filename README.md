@@ -7,7 +7,7 @@ compact, compressed file format: footprints (with courtyard holes) and heights.
 |---|---|
 | Buildings | 15,118,300 |
 | Files | 433 (`bld/<NNNN>_<sheet>.bld`, e.g. `0264_M-33.bld`) |
-| Size | about 240 MB in total |
+| Size | about 240 MB in total, compressed from around 71 GB |
 | Coordinates | EPSG:2180 (PL-1992), metres, **x = easting, y = northing** |
 | Precision | 10 cm horizontal (`xy_step_cm = 10`), 10 cm vertical (`z_step_cm = 10`) |
 
@@ -23,7 +23,6 @@ private, scientific and commercial projects. They are published under the Geodet
 on open data and the re-use of public sector information.
 
 - GUGiK announcement: <https://www.gov.pl/web/gugik/aktualizacja-modeli-3d-budynkow-w-standardzie-lod1>
-- Geoportal news: <https://www.geoportal.gov.pl/aktualnosci/aktualizacja-modeli-3d-budynkow-w-standardzie-lod1/>
 - Download page: <https://www.geoportal.gov.pl/pl/dane/inne-dane/modele-3d-budynkow/>
 
 ## Quick start
