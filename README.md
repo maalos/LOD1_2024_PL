@@ -20,7 +20,7 @@ The 2024 LOD1 3D building models are open data of the National Geodetic and Cart
 by GUGiK. According to GUGiK they are available free of charge and without licence restrictions for any use,
 including commercial use: no application is needed, and they may be downloaded, processed, modified and used in
 private, scientific and commercial projects. They are published under the Geodetic and Cartographic Law and the Act
-on open data and the re-use of public sector information.
+on open data and the re-use of public sector information. At the same time, they're marked as CC BY 4.0 on Geoportal.
 
 - GUGiK announcement: <https://www.gov.pl/web/gugik/aktualizacja-modeli-3d-budynkow-w-standardzie-lod1>
 - Download page: <https://www.geoportal.gov.pl/pl/dane/inne-dane/modele-3d-budynkow/>
